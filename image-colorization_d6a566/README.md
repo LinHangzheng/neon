@@ -29,11 +29,11 @@ You are tasked to control the average color/mood of the image that you are color
 
 ## Solution
 - Document the things you tried, what worked and did not.   
-I tried different model structure and finally chose the pretrained resnet18 with a decoder  
-I tried to use the dropout layer and the L1 loss for weights, but they didn't show to much difference.  
-I tried to use the MSE loss and the loss that combine both the L1 and L2 loss. The last one performes better.  
+I tried different model structures and finally chose the pretrained resnet18 with a decoder  
+I tried to use the dropout layer and the L1 loss for weights, but they didn't show too much difference.  
+I tried to use the MSE loss and the loss that combine both the L1 and L2 loss. The last one performed better.  
 I tried to use the data augmentation with image crop, rotation, flip to increase the number of data.  
-I tried different learning rate and finally choose the lr=0.0001  
+I tried different learning rates and finally set the lr=0.0001  
 
 - Update this README.md file to add instructions on how to run your code. (train, inference).   
 Note. All following commands should be ran within the `neon` directory.
